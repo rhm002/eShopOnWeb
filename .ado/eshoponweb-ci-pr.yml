@@ -12,7 +12,7 @@ stages:
     pool:
       name: az400m03l03a-pool
       demands:
-      - Agent.Name -equals az400m03-vm0
+      - Agent.Name -equals az400m03-vm
     steps:
     - task: DotNetCoreCLI@2
       displayName: Restore
